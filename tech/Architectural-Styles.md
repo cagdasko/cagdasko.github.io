@@ -1,0 +1,11 @@
+# Architectural Styles
+
+  - __Monolithic architecture__: In a monolithic architecture, the entire application is built as a single, self-contained unit. All components of the application run on a single server or cluster of servers, and communicate with each other via function calls or shared memory. This architecture style is simple and easy to deploy, but can become difficult to maintain and scale as the application grows.
+
+  - __Client-server architecture__: In a client-server architecture, the application is divided into two parts: a client component that- runs on a user's device and a server component that runs on a server. The client communicates with the server via a network- connection, typically over the internet. This architecture style is commonly used for web applications and distributed systems.
+
+  - __Microservices architecture__: In a microservices architecture, the application is broken down into a set of loosely coupled, independently deployable services. Each service is responsible for a specific function or feature of the application, and communicates with other services via APIs. This architecture style is designed to be highly scalable and resilient, but can be complex to design and manage. See some [differences](Differences-Between-SOA-and-Microservices.md) between microservices and service-oriented architectures.
+
+  - __Service-oriented architecture (SOA)__: In a service-oriented architecture, the application is designed as a collection of services that communicate with each other via well-defined interfaces. These services are designed to be reusable and loosely coupled, and can be orchestrated to perform complex workflows. This architecture style is commonly used for enterprise systems and business process automation. See some [differences](Differences-Between-SOA-and-Microservices.md) between microservices and service-oriented architectures.
+
+  - __Event-driven architecture (EDA)__: In an event-driven architecture, the application is designed to respond to events that occur in the system, such as user actions or data changes. Each event triggers one or more actions, which can be performed by different components of the system. This architecture style is commonly used for real-time systems and event-driven applications.
